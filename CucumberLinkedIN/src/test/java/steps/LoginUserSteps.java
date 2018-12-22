@@ -25,7 +25,7 @@ public class LoginUserSteps   {
 	public void iam_on_the_loginpage_of_linkedIn() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 //		System.out.println("driver in given :"+TestSetup.getDriver());
-		System.out.println("we are using the Given by Background");
+		System.out.println("we  are using the Given by Background");
 		TestSetup.openUrl("https://www.linkedin.com/");
 		Assert.assertTrue(la.verifySignInPageTitle(), "Login Page title mismatch");
 		

@@ -26,7 +26,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		 glue= "steps",monochrome=true,
 		 features= "resources/FeatureFiles"
 
-						 
+			   			 
 ) 
 public class Runner extends AbstractTestNGCucumberTests {
 	

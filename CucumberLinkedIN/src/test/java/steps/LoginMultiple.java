@@ -25,7 +25,7 @@ TestSetup ts=new TestSetup();
 	public void user_tries_to_enter_the_username_into_username_fieldd(String arg1) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    la.enterUserName(arg1);
-	    System.out.println("username: "+arg1);
+	    System.out.println("user name: "+arg1);
 	}
 
 	@When("^user enters the password for the password fieldd \"([^\"]*)\"$")

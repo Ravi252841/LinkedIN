@@ -17,9 +17,9 @@ public class TestSetup {
 	 
 	
 public static void openUrl(String url) {
-	System.out.println("driver in Opne :"+driver+ ","+url);
+	System.out.println("driver in Open :"+driver+ ","+url);
 		driver.get(url);
-		
+		  
 	}
 	
 	@Before

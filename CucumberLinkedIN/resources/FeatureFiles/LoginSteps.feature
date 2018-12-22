@@ -1,5 +1,5 @@
 @Smoke
-Feature: User logs into the linkedIn Application 
+Feature: User logs into the linkedIn Application
 Background: 
 	Given Iam on the loginpage of linkedIn
 	
