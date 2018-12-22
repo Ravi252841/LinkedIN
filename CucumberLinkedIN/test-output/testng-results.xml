@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58502" started-at="2018-12-22T13:17:05Z" finished-at="2018-12-22T13:18:03Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.Runner@7cd62f43]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="58502" started-at="2018-12-22T13:17:05Z" finished-at="2018-12-22T13:18:03Z">
+      <class name="runners.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.Runner@7cd62f43]" name="setUpClass" is-config="true" duration-ms="328" started-at="2018-12-22T18:47:05Z" finished-at="2018-12-22T18:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:runners.Runner@7cd62f43]" name="setupMethod" is-config="true" duration-ms="375" started-at="2018-12-22T18:47:05Z" finished-at="2018-12-22T18:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.Runner@7cd62f43]" name="feature" duration-ms="57618" started-at="2018-12-22T18:47:06Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-12-22T18:48:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Running multiple tests]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.Runner@7cd62f43]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2018-12-22T18:48:03Z" finished-at="2018-12-22T18:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="TearMethod()[pri:0, instance:runners.Runner@7cd62f43]" name="TearMethod" is-config="true" duration-ms="0" started-at="2018-12-22T18:48:03Z" finished-at="2018-12-22T18:48:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearMethod -->
+      </class> <!-- runners.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
